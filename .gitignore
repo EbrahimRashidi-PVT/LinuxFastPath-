@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Build directories & object files
+bin/
+*.o
+*.so
+*.dylib
+
+# Specific compiled executables
+/nsinspect
+/queues
+/fastpath
+
+# Go build & test artifacts
+*.test
+*.prof
