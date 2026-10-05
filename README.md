@@ -1,6 +1,12 @@
 # LinuxFastPath
 
-A hands-on collection of high-performance Linux networking projects exploring the Linux FastPath, eBPF, XDP, TCX, Netlink, and kernel network subsystem architectures.
+> **Disclaimer / Status**: This repository is a **Proof of Concept (POC)** and an **initial version of the code developed for evaluation**, prototyping, and experimentation with Linux FastPath networking paradigms.
+
+---
+
+## Overview
+
+A hands-on collection of high-performance Linux networking prototypes exploring the Linux FastPath, eBPF, XDP, TCX, Netlink, and kernel network subsystem architectures.
 
 ---
 
@@ -42,4 +48,3 @@ LinuxFastPath/
 │   └── internal/telemetry/                    # Telemetry consumer, event decoder & counter aggregator
 └── README.md
 ```
->>>>>>> b980a71 (Add Linux FastPath networking projects (01-namespace inventory, 02-queue inventory, 03-eBPF XDP filter, 04-TCX telemetry))
